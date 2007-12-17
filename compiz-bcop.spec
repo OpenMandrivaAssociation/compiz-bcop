@@ -22,7 +22,6 @@ Group: System/X11
 URL: http://www.go-compiz.org/
 Source: %{srcname}.tar.bz2 
 License: GPL
-BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: libxslt-devel
 Requires: libxslt-proc
