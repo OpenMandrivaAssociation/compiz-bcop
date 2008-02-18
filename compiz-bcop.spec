@@ -1,12 +1,12 @@
 %define shortname bcop
 %define name compiz-bcop
-%define version 0.6.0
+%define version 0.6.99
 %define rel 1
-%define git 0
+%define git 20080210
 
 %if  %{git}
-%define srcname %{name}-%{version}-%{git}
-%define distname %{name}
+%define srcname %{shortname}-%{git}
+%define distname %{shortname}
 %define release %mkrel 0.%{git}.%{rel}
 %else
 %define srcname %{name}-%{version}
