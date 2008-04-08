@@ -1,6 +1,6 @@
 %define shortname bcop
 %define name compiz-bcop
-%define version 0.7.2
+%define version 0.7.4
 %define rel 1
 %define git 0
 
