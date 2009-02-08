@@ -1,15 +1,15 @@
 %define shortname bcop
 %define name compiz-bcop
-%define version 0.7.8
+%define version 0.8.0
 %define rel 1
-%define git 20080713
+%define git 20090208
 
 %if  %{git}
-%define srcname %{shortname}-%{git}
+%define srcname %{shortname}-%{git}.tar.lzma
 %define distname %{shortname}
 %define release %mkrel 0.%{git}.%{rel}
 %else
-%define srcname %{name}-%{version}
+%define srcname %{name}-%{version}.tar.bz2
 %define distname %{name}-%{version}
 %define release %mkrel %{rel}
 %endif
@@ -20,7 +20,7 @@ Release: %release
 Summary: BCOP: Compiz Fusion plugin build utility
 Group: System/X11
 URL: http://www.go-compiz.org/
-Source: %{srcname}.tar.bz2
+Source: %{srcname}
 License: GPL
 BuildRoot: %{_tmppath}/%{name}-root
 
