@@ -1,8 +1,8 @@
 %define shortname bcop
 %define name compiz-bcop
-%define version 0.8.0
+%define version 0.8.2
 %define rel 1
-%define git 20090208
+%define git 0
 
 %if  %{git}
 %define srcname %{shortname}-%{git}.tar.lzma
