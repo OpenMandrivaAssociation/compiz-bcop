@@ -19,7 +19,7 @@ Version: %version
 Release: %release
 Summary: BCOP: Compiz Fusion plugin build utility
 Group: System/X11
-URL: http://www.go-compiz.org/
+URL: https://www.go-compiz.org/
 Source: %{srcname}
 License: GPL
 BuildRoot: %{_tmppath}/%{name}-root
