@@ -24,6 +24,11 @@ Source: %{srcname}
 License: GPL
 BuildRoot: %{_tmppath}/%{name}-root
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libxslt-devel
 Requires: libxslt-proc
 Obsoletes: %{shortname}
